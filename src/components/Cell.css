@@ -1,0 +1,78 @@
+.cell {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  height: 34px;
+  margin: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  /* border-radius: 3px; */
+}
+
+.exposed {
+  background: #d3d3d3;
+}
+
+.cell:focus {
+  outline: none;
+}
+
+/* Add colors per value 0-8 */
+.zero {
+  color: inherit;
+}
+
+.one {
+  color: #00f;
+}
+
+.two {
+  color: green;
+}
+
+.three {
+  color: red;
+}
+
+.four {
+  color: navy;
+}
+
+.five {
+  color: maroon;
+}
+
+.six {
+  color: teal;
+}
+
+.seven {
+  color: #000;
+}
+
+.eight {
+  color: gray;
+}
+
+/* .square-black {
+  background-color: black;
+  opacity: 0.5;
+}
+.square-white {
+  background-color: white;
+}
+.square-empty {
+  background-color: gray;
+} */
+
+.cell:hover {
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    background-color: #61dafb;
+}
+
+.exposed:hover {
+  background-color: #61dafb; /*figure it out*/
+}

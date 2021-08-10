@@ -1,3 +1,7 @@
+# To publish:
+
+`npm run deploy` will push to deploy branch and host @ https://nextbillyonair.github.io/minesweeper
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
